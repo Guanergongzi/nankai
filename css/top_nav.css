@@ -1,0 +1,103 @@
+body {   /*//设置整体的字体大小以及行款*/
+    font-family: '宋体';
+    font-size: 10.5px;
+    line-height: 1.5;
+}
+.top01{
+    height: 32px;
+    width: 1000px;
+    float:right;
+}
+.top_menu{
+    height: 18px;
+    width: 309px;
+    position: relative;
+    float:right;
+
+}
+.top_menu01 {
+    width: 165px;
+    position: absolute;
+
+}
+.top_menu02{
+    width: 123px;
+    position:absolute;
+    right: 16px;
+}
+/*.nav{*/
+    /*width: 686px;*/
+    /*height: 76px;*/
+/*}*/
+.logo_nav{
+    width: 253px;
+    height: 87px;
+    position: absolute;
+    top: 32px;
+}
+nav{
+    width: 800px;
+    height: 76px;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-role{
+    height: 24px;
+    width: 350px;
+    color: purple;
+    float: left;
+    margin-left: 240px;
+  }
+.breadcrumb>li+li:before{
+    content: '|';
+    padding-left:1px;
+}
+/*.nav-role li{*/
+    /*float: right;*/
+    /*list-style: none;*/
+}
+.search_bar{
+    float: right;
+    width: 183px;
+    height: 27px;
+}
+#form01{
+    width: 156px;
+    height: 24px;
+}
+.nav_bar{
+    width: 720px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 13.5px;
+    background-image: url("../images/nav_bg.png");
+    background-repeat: repeat-x;
+    position:absolute;
+    left: 110px;
+    margin-top: 37px;
+    border-radius: 5px;
+}
+.nav_bar>ul>li{
+    padding: 4px;
+    float: left;
+    list-style: none;
+}
+#control_left{
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #222222;
+    opacity: 0.6;
+    position: absolute;
+    top: 40%;
+}
+#control_right{
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #222222;
+    opacity: 0.6;
+    position: absolute;
+    top: 40%;
+}

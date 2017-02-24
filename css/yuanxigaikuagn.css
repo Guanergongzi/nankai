@@ -1,0 +1,20 @@
+.jigou_biaoge>table>tbody>tr>td{
+     text-indent: 3em;
+    border: 1px solid lightgray;
+}
+.liebiao_herder{
+    background-image: url("../images/zhuanyexueyuan_bg.png");
+}
+.jigou_biaoge{
+    margin-top: 20px;
+}
+.jigou_biaoge>table>tbody>tr:nth-child(odd){
+    background-color: #F3F3F3;
+}
+.jigou_biaoge>table>tbody>tr>td>a{
+    color: #222222;
+}
+.jigou_biaoge>table>tbody>tr>td>a:hover{
+    text-decoration: underline;
+    color:red;
+}
